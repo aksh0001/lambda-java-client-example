@@ -21,7 +21,9 @@ public class LambdaClientInvoker {
     public static void main(String[] args) {
         String functionName = args[0];
         LambdaClientInvoker client = new LambdaClientInvoker(functionName);
-        client.invokeLambda();
+        for (int i = 0; i < 5; i++) {  // invoke 5 times
+            client.invokeLambda();
+        }
     }
 
     /**
