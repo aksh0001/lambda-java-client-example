@@ -10,7 +10,7 @@ public class LambdaClientInvoker {
 
     private final String FUNCTION_NAME;
     private final String PAYLOAD = "{\n" +
-            " \"message1 \": \"Hello, World!\",\n" +
+            " \"message1\": \"Hello, World!\",\n" +
             " \"message2\": \"Epstein didn't kill himself\"\n" +
             "}";
 
